@@ -1,0 +1,328 @@
+
+> vite_react_shadcn_ts@0.0.0 dev
+> vite
+
+Failed to resolve dependency: framer-motion, present in 'optimizeDeps.include'
+
+  VITE v5.4.19  ready in 317 ms
+
+  ➜  Local:   http://localhost:8080/
+  ➜  Network: http://172.20.0.35:8080/
+Error: The following dependencies are imported but could not be resolved:
+
+  framer-motion (imported by /home/daytona/project/src/components/Hero.tsx)
+
+Are they installed?
+    at file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:50669:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:50174:26
+10:48:51 AM [vite] Pre-transform error: Failed to resolve import "framer-motion" from "src/components/Hero.tsx". Does the file exist?
+10:48:51 AM [vite] Pre-transform error: Failed to resolve import "framer-motion" from "src/components/CallToAction.tsx". Does the file exist?
+10:48:51 AM [vite] Pre-transform error: Failed to resolve import "framer-motion" from "src/components/Features.tsx". Does the file exist?
+10:48:51 AM [vite] Pre-transform error: Failed to resolve import "framer-motion" from "src/components/Testimonials.tsx". Does the file exist?
+Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+10:49:07 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/Features.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/Features.tsx:2:23
+  20 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+  21 |  import React from 'react';
+  22 |  import { motion } from 'framer-motion';
+     |                          ^
+  23 |  import { Lightbulb, Rocket, Shield, TrendingUp, Users, Zap } from 'lucide-react';
+  24 |  const FeatureCard = ({ icon: Icon, title, description })=>{
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:49:07 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/CallToAction.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/CallToAction.tsx:4:23
+  22 |  import { Button } from '@/components/ui/button';
+  23 |  import { Link } from 'react-router-dom';
+  24 |  import { motion } from 'framer-motion';
+     |                          ^
+  25 |  const CallToAction = ()=>{
+  26 |      const fadeUp = {
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:49:07 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/Hero.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/Hero.tsx:4:23
+  22 |  import { Button } from '@/components/ui/button';
+  23 |  import { Link } from 'react-router-dom';
+  24 |  import { motion } from 'framer-motion';
+     |                          ^
+  25 |  const Hero = ()=>{
+  26 |      const fadeUp = {
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:49:07 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/Testimonials.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/Testimonials.tsx:2:23
+  20 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+  21 |  import React from 'react';
+  22 |  import { motion } from 'framer-motion';
+     |                          ^
+  23 |  import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+  24 |  const TestimonialCard = ({ quote, name, title, avatar })=>{
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:49:12 AM [vite] hmr update /src/pages/Index.tsx, /src/index.css
+10:49:13 AM [vite] Pre-transform error: Failed to resolve import "framer-motion" from "src/components/Hero.tsx". Does the file exist?
+10:49:13 AM [vite] Pre-transform error: Failed to resolve import "framer-motion" from "src/components/CallToAction.tsx". Does the file exist?
+10:49:13 AM [vite] Pre-transform error: Failed to resolve import "framer-motion" from "src/components/Features.tsx". Does the file exist?
+10:49:13 AM [vite] Pre-transform error: Failed to resolve import "framer-motion" from "src/components/Testimonials.tsx". Does the file exist?
+10:49:13 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/CallToAction.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/CallToAction.tsx:4:23
+  22 |  import { Button } from '@/components/ui/button';
+  23 |  import { Link } from 'react-router-dom';
+  24 |  import { motion } from 'framer-motion';
+     |                          ^
+  25 |  const CallToAction = ()=>{
+  26 |      const fadeUp = {
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:49:13 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/Features.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/Features.tsx:2:23
+  20 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+  21 |  import React from 'react';
+  22 |  import { motion } from 'framer-motion';
+     |                          ^
+  23 |  import { Lightbulb, Rocket, Shield, TrendingUp, Users, Zap } from 'lucide-react';
+  24 |  const FeatureCard = ({ icon: Icon, title, description })=>{
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:49:13 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/Hero.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/Hero.tsx:4:23
+  22 |  import { Button } from '@/components/ui/button';
+  23 |  import { Link } from 'react-router-dom';
+  24 |  import { motion } from 'framer-motion';
+     |                          ^
+  25 |  const Hero = ()=>{
+  26 |      const fadeUp = {
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:49:13 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/Testimonials.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/Testimonials.tsx:2:23
+  20 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+  21 |  import React from 'react';
+  22 |  import { motion } from 'framer-motion';
+     |                          ^
+  23 |  import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+  24 |  const TestimonialCard = ({ quote, name, title, avatar })=>{
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:49:13 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/Hero.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/Hero.tsx:4:23
+  22 |  import { Button } from '@/components/ui/button';
+  23 |  import { Link } from 'react-router-dom';
+  24 |  import { motion } from 'framer-motion';
+     |                          ^
+  25 |  const Hero = ()=>{
+  26 |      const fadeUp = {
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:49:13 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/CallToAction.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/CallToAction.tsx:4:23
+  22 |  import { Button } from '@/components/ui/button';
+  23 |  import { Link } from 'react-router-dom';
+  24 |  import { motion } from 'framer-motion';
+     |                          ^
+  25 |  const CallToAction = ()=>{
+  26 |      const fadeUp = {
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:49:13 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/Features.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/Features.tsx:2:23
+  20 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+  21 |  import React from 'react';
+  22 |  import { motion } from 'framer-motion';
+     |                          ^
+  23 |  import { Lightbulb, Rocket, Shield, TrendingUp, Users, Zap } from 'lucide-react';
+  24 |  const FeatureCard = ({ icon: Icon, title, description })=>{
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:49:13 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/Testimonials.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/Testimonials.tsx:2:23
+  20 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+  21 |  import React from 'react';
+  22 |  import { motion } from 'framer-motion';
+     |                          ^
+  23 |  import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+  24 |  const TestimonialCard = ({ quote, name, title, avatar })=>{
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:49:18 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/Hero.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/Hero.tsx:4:23
+  22 |  import { Button } from '@/components/ui/button';
+  23 |  import { Link } from 'react-router-dom';
+  24 |  import { motion } from 'framer-motion';
+     |                          ^
+  25 |  const Hero = ()=>{
+  26 |      const fadeUp = {
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:49:18 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/CallToAction.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/CallToAction.tsx:4:23
+  22 |  import { Button } from '@/components/ui/button';
+  23 |  import { Link } from 'react-router-dom';
+  24 |  import { motion } from 'framer-motion';
+     |                          ^
+  25 |  const CallToAction = ()=>{
+  26 |      const fadeUp = {
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:49:18 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/Features.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/Features.tsx:2:23
+  20 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+  21 |  import React from 'react';
+  22 |  import { motion } from 'framer-motion';
+     |                          ^
+  23 |  import { Lightbulb, Rocket, Shield, TrendingUp, Users, Zap } from 'lucide-react';
+  24 |  const FeatureCard = ({ icon: Icon, title, description })=>{
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:49:18 AM [vite] Internal server error: Failed to resolve import "framer-motion" from "src/components/Testimonials.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/daytona/project/src/components/Testimonials.tsx:2:23
+  20 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+  21 |  import React from 'react';
+  22 |  import { motion } from 'framer-motion';
+     |                          ^
+  23 |  import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+  24 |  const TestimonialCard = ({ quote, name, title, avatar })=>{
+      at TransformPluginContext._formatError (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/daytona/project/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:54:36 AM [vite] hmr update /src/pages/Index.tsx, /src/index.css
+10:54:36 AM [vite] hmr update /src/App.tsx, /src/index.css
+10:54:37 AM [vite] page reload src/components/NavLink.tsx
+10:54:37 AM [vite] page reload src/components/ui/accordion.tsx
+10:54:37 AM [vite] Pre-transform error: Failed to resolve import "framer-motion" from "src/components/Hero.tsx". Does the file exist?
+10:54:37 AM [vite] Pre-transform error: Failed to resolve import "framer-motion" from "src/components/Features.tsx". Does the file exist?
+10:54:37 AM [vite] Pre-transform error: Failed to resolve import "framer-motion" from "src/components/CallToAction.tsx". Does the file exist?
+10:54:37 AM [vite] Pre-transform error: Failed to resolve import "framer-motion" from "src/components/Testimonials.tsx". Does the file exist?
+10:54:37 AM [vite] page reload src/components/ui/alert-dialog.tsx
+10:54:38 AM [vite] page reload src/components/ui/alert.tsx
